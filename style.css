@@ -1,0 +1,62 @@
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+/* carusel */
+.carousel-item{
+    position: relative;
+  }
+  .carousel-caption{
+      margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #carouselExampleCaptions .carousel-item img{
+      object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    height:70vh;
+  }
+
+/* carusel-end */
+.about-content{
+    background-color: #f4fafd;
+}
+.register-section{
+    margin-top: 120px !important
+}
+.company-section{
+    margin-top: 120px !important;
+    margin-bottom: 60px!important;
+}
+.trusted{
+    margin: 30px 0 !important;
+}
+.cources{
+    padding-top: 80px;
+}
+/* responsive */
+@media screen and (min-width:0px) and (max-width:576px){
+    .cource-box{
+      flex-direction: column;
+      width: 100%;
+    }
+    .cource-box-img{
+      width: 100%;
+      height: auto;
+    }
+    .cource-box-img img{
+      width: 100%;
+      height: auto;
+    }
+    .cource-box-content {
+      padding: 35px 0 28px 0;
+  }
+  .cource-box-content p {
+    padding: 10px 0 2px 0;
+  }
+  
+  }
