@@ -2,24 +2,25 @@ body{
     font-family: 'Poppins', sans-serif;
 
 }
-/* carusel */
-.carousel-item{
-    position: relative;
-  }
-  .carousel-caption{
-      margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  #carouselExampleCaptions .carousel-item img{
-      object-fit: cover;
-    object-position: center;
-    overflow: hidden;
-    height:70vh;
-  }
+.carousel-item-1 {
+  background: url(./images/cover/banner1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: revert;
+  padding: 15% 17%;
+  border-radius: 11px;
+}
+.carousel-item-2 {
+  background: url(./images/cover/banner2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: revert;
+  padding: 15% 17%;
+  border-radius: 11px;
+}
+
 
 /* carusel-end */
 .about-content{
